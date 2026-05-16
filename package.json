@@ -1,0 +1,30 @@
+{
+  "name": "solvingproblems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node ./dist/index.js",
+    "start": "tsc && node ./dist/index.js",
+    "ex1": "ts-node src/FloodFill1.ts",
+    "ex1:build": "tsc && node dist/ُُFloodFill1.js",
+    "ex2": "ts-node src/TrappinRainWater2.ts",
+    "ex2:build": "tsc && node dist/ُُTrappinRainWater2.js",
+    "ex3": "ts-node src/ClimbStrairs3.ts",
+    "ex3:build": "tsc && node dist/ُُClimbStrairs3.js",
+    "ex4": "ts-node src/JumpGame4.ts",
+    "ex4:build": "tsc && node dist/ُُJumpGame4.js",
+    "ex5": "ts-node src/RodCutting5.ts",
+    "ex5:build": "tsc && node dist/ُُRodCutting5.js",
+    "ex6": "ts-node src/LargestRegtHistogram6.ts",
+    "ex6:build": "tsc && node dist/LargestRegtHistogram6.js",
+    "ex7": "ts-node src/LargestRagtBinMatrix7.ts",
+    "ex7:build": "tsc && node dist/ُُLargestRagtBinMatrix7.js",
+    "all": "npm run ex1 && npm run ex2 && npm run ex3 && npm run ex4 && npm run ex5 && npm run ex6 && npm run ex7",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
